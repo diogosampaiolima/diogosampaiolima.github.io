@@ -69,6 +69,7 @@ jobs:
             git remote add upstream https://github.com/alshedivat/al-folio.git
           fi
           git rev-parse -q --verify "$BASELINE_LOCAL_REF" >/dev/null || git fetch upstream "refs/tags/$BASELINE_TAG":"$BASELINE_LOCAL_REF"
+          git rev-parse -q --verify "$BASELINE_LOCAL_REF" >/dev/null
           git worktree add ../al-folio-baseline "$BASELINE_LOCAL_REF"
           (cd ../al-folio-baseline && bundle install && npm ci)
 
