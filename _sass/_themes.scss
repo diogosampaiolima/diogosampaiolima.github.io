@@ -6,12 +6,12 @@
 
 :root,
 html[data-theme-setting="light"] {
-  --global-theme-color: #1d3557;
-  --global-hover-color: #14263f;
+  --global-theme-color: #2563eb;
+  --global-hover-color: #1d4ed8;
 }
 
 html[data-theme="dark"],
 html[data-theme-setting="dark"] {
-  --global-theme-color: #6a9bd8;
-  --global-hover-color: #8bb4e6;
+  --global-theme-color: #60a5fa;
+  --global-hover-color: #93c5fd;
 }
