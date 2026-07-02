@@ -30,4 +30,4 @@ Diogo Sampaio Lima is an Assistant Professor of Economics (tenured) in the Depar
 
 He holds a Ph.D. in Economics from Indiana University, Bloomington (2019), and earned his earlier degrees at ISEG – Lisbon School of Economics and Management, University of Lisbon. Alongside his academic training, he has held research positions at the Bank of Portugal, where his work informed his interest in sovereign finance and financial stability.
 
-His research has appeared in outlets such as the Journal of Financial Stability. For an overview of his current and published work, see the [publications](/publications/) page, or download his [CV](/cv/).
+His research has appeared in outlets such as the Journal of Financial Stability. For an overview of his current and published work, see the [research](/research/) page, or download his [CV](/cv/).
