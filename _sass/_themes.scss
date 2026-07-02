@@ -1,0 +1,17 @@
+// Local theme override — navy-blue accent.
+// Replaces al-folio's default purple (light) / cyan (dark) accent tokens.
+// Only the accent color tokens are overridden here; every other theme token
+// continues to come from the al_folio_core gem. See docs/CUSTOMIZE.md
+// ("Changing theme color") for the supported local-override pattern.
+
+:root,
+html[data-theme-setting="light"] {
+  --global-theme-color: #1d3557;
+  --global-hover-color: #14263f;
+}
+
+html[data-theme="dark"],
+html[data-theme-setting="dark"] {
+  --global-theme-color: #6a9bd8;
+  --global-hover-color: #8bb4e6;
+}
