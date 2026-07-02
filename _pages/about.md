@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Quantitative Macroeconomist at Maastricht University School of Business and Economics
+subtitle: Assistant Professor of Economics · Maastricht University
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
     <p>Maastricht University SBE</p>
     <p>Maastricht, Netherlands</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Diogo Sampaio Lima is a quantitative macroeconomist affiliated with the Maastricht University School of Business and Economics.
+Diogo Sampaio Lima is an Assistant Professor of Economics (tenured) in the Department of Economics at Maastricht University's School of Business and Economics. His research lies in international macroeconomics, with a focus on sovereign debt and default and on macro-prudential regulation. He studies how governments borrow and repay in international capital markets, how default risk shapes economic outcomes, and how financial regulation interacts with global capital flows.
 
-This website is the new home for his academic profile and is replacing the previous Google Sites page.
+He holds a Ph.D. in Economics from Indiana University, Bloomington (2019), and earned his earlier degrees at ISEG – Lisbon School of Economics and Management, University of Lisbon. Alongside his academic training, he has held research positions at the Bank of Portugal, where his work informed his interest in sovereign finance and financial stability.
 
-Until the remaining sections are migrated, the most up-to-date public links are listed below.
+His research has appeared in outlets such as the Journal of Financial Stability. For an overview of his current and published work, see the [publications](/publications/) page, or download his [CV](/cv/).
