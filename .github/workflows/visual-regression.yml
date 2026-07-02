@@ -61,7 +61,16 @@ jobs:
 
       - name: Prepare baseline worktree (v0.16.3) 🧱
         run: |
-          git worktree add ../al-folio-baseline v0.16.3
+          BASELINE_TAG=v0.16.3
+          BASELINE_LOCAL_REF="refs/tags/al-folio-$BASELINE_TAG"
+          if git remote get-url upstream >/dev/null 2>&1; then
+            git remote set-url upstream https://github.com/alshedivat/al-folio.git
+          else
+            git remote add upstream https://github.com/alshedivat/al-folio.git
+          fi
+          git rev-parse -q --verify "$BASELINE_LOCAL_REF" >/dev/null || git fetch upstream "refs/tags/$BASELINE_TAG":"$BASELINE_LOCAL_REF"
+          git rev-parse -q --verify "$BASELINE_LOCAL_REF" >/dev/null
+          git worktree add ../al-folio-baseline "$BASELINE_LOCAL_REF"
           (cd ../al-folio-baseline && bundle install && npm ci)
 
       - name: Install Jupyter + ImageMagick runtime deps 🧰
