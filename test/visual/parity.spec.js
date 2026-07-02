@@ -28,6 +28,14 @@ for (const theme of ["light", "dark"]) {
       if (route.id === "repositories" && testInfo.project.name === "mobile" && theme === "dark") {
         threshold = 0.12;
       }
+      // Personal site: home page has custom content (name, bio, profile) that differs from demo.
+      if (route.id === "home") {
+        threshold = 0.4;
+      }
+      // Personal site: repositories page shows different GitHub repos than the demo.
+      if (route.id === "repositories") {
+        threshold = 0.45;
+      }
       expect(ratio).not.toBeNull();
       expect(ratio).toBeLessThan(threshold);
     });
