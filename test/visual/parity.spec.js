@@ -30,7 +30,7 @@ for (const theme of ["light", "dark"]) {
       }
       // Personal site: home page has custom content (name, bio, profile) that differs from demo.
       if (route.id === "home") {
-        threshold = 0.40;
+        threshold = 0.4;
       }
       // Personal site: repositories page shows different GitHub repos than the demo.
       if (route.id === "repositories") {
